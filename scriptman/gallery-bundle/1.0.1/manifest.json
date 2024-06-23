@@ -1,0 +1,5 @@
+{
+  "bundles": {
+    "Scriptman\\Gallery\\ScriptmanGalleryBundle": ["all"]
+  }
+}
