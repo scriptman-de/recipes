@@ -1,0 +1,18 @@
+{
+    "manifests": {
+        "scriptman/gallery-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Scriptman\\Gallery\\ScriptmanGalleryBundle": [
+                        "all"
+                    ]
+                },
+                "post-install-output": [
+                    "<bg=black;fg=green>*</> Scriptman\\GalleryBundle installed"
+                ]
+            },
+            "files": [],
+            "ref": "9504165915c65da5ab7bce189c5d22356d22bf1a"
+        }
+    }
+}

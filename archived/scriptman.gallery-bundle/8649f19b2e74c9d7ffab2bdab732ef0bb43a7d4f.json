@@ -1,0 +1,15 @@
+{
+    "manifests": {
+        "scriptman/gallery-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Scriptman\\Gallery\\ScriptmanGalleryBundle": [
+                        "all"
+                    ]
+                }
+            },
+            "files": [],
+            "ref": "8649f19b2e74c9d7ffab2bdab732ef0bb43a7d4f"
+        }
+    }
+}
