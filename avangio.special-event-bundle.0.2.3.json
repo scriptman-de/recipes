@@ -1,0 +1,19 @@
+{
+    "manifests": {
+        "avangio/special-event-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Avangio\\SpecialEvent\\AvangioSpecialEventBundle": [
+                        "all"
+                    ]
+                },
+                "post-install-output": [
+                    "* <fg=green>Avangio\\SpecialEventBundle</> is installed",
+                    "* <fg=blue>Read</> the documentation at <comment>https://git.scriptman.de/Avangio/special-event-bundle/Resources/doc/index.md</>"
+                ]
+            },
+            "files": [],
+            "ref": "18fe45a6053927cc0b033c575e63a58ab11df7f1"
+        }
+    }
+}
