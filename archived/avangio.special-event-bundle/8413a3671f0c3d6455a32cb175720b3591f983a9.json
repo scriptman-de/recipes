@@ -1,0 +1,51 @@
+{
+    "manifests": {
+        "avangio/special-event-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Avangio\\SpecialEvent\\AvangioSpecialEventBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-package": {
+                    "Migrations/Version20201212000000.php": "migrations/Version20201212000000.php"
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                },
+                "post-install-output": [
+                    "* <fg=green>Avangio\\SpecialEventBundle</> is installed",
+                    "* <fg=blue>Read</> the documentation at <comment>https://git.scriptman.de/Avangio/special-event-bundle/Resources/doc/index.md</>"
+                ]
+            },
+            "files": {
+                "config/packages/avangio_special_event.yaml": {
+                    "contents": [
+                        "avangio_special_event:",
+                        "  base_path: '/admin-specialevent'",
+                        "  base_path_api: '/admin-specialevent/api/v1' # no trailing slash!",
+                        "  base_path_cms: '/cms'"
+                    ],
+                    "executable": false
+                },
+                "config/packages/doctrine_migrations.yaml": {
+                    "contents": [
+                        "doctrine_migrations:",
+                        "    migrations_paths:",
+                        "        'Avangio\\SpecialEvent\\Migrations': '@AvangioSpecialEventBundle/Migrations'"
+                    ],
+                    "executable": false
+                },
+                "config/routes/avangio-specialevent.yaml": {
+                    "contents": [
+                        "avangio_special_event_api:",
+                        "  resource: \"@AvangioSpecialEventBundle/Resources/config/routing/api.xml\"",
+                        "  prefix: /admin-specialevent"
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "8413a3671f0c3d6455a32cb175720b3591f983a9"
+        }
+    }
+}

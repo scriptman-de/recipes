@@ -1,6 +1,9 @@
 {
     "aliases": [],
     "recipes": {
+        "avangio/special-event-bundle": [
+            "0.2.5"
+        ],
         "scriptman/gallery-bundle": [
             "1.0.0",
             "1.0.1"
