@@ -1,0 +1,11 @@
+{
+  "bundles": {
+    "Avangio\\SpecialEvent\\AvangioSpecialEventBundle": ["all"]
+  },
+  "copy-from-package": {
+    "Migrations/Version20201212000000.php": "migrations/Version20201212000000.php"
+  },
+  "copy-from-recipe": {
+    "config/": "%CONFIG_DIR%/"
+  }
+}

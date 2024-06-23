@@ -1,0 +1,3 @@
+avangio_special_event_api:
+  resource: "@AvangioSpecialEventBundle/Resources/config/routing/api.xml"
+  prefix: /admin-specialevent

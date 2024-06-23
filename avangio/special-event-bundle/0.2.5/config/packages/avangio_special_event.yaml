@@ -1,0 +1,4 @@
+avangio_special_event:
+  base_path: '/admin-specialevent'
+  base_path_api: '/admin-specialevent/api/v1' # no trailing slash!
+  base_path_cms: '/cms'
