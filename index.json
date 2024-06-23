@@ -16,9 +16,9 @@
     "_links": {
         "repository": "github.com/scriptman-de/recipes",
         "origin_template": "{package}:{version}@github.com/scriptman-de/recipes:main",
-        "recipe_template": "https://raw.githubusercontent.com/scriptman-de/recipes/tree/{package_dotted}.{version}.json",
+        "recipe_template": "https://raw.githubusercontent.com/scriptman-de/recipes/main/{package_dotted}.{version}.json",
         "recipe_template_relative": "{package_dotted}.{version}.json",
-        "archived_recipes_template": "https://raw.githubusercontent.com/scriptman-de/recipes/tree/archived/{package_dotted}/{ref}.json",
+        "archived_recipes_template": "https://raw.githubusercontent.com/scriptman-de/recipes/main/archived/{package_dotted}/{ref}.json",
         "archived_recipes_template_relative": "archived/{package_dotted}/{ref}.json"
     }
 }
