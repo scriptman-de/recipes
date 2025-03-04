@@ -1,0 +1,37 @@
+{
+    "manifests": {
+        "valznerweiher/homepage-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Valznerweiher\\Homepage\\ValznerweiherHomepageBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                }
+            },
+            "files": {
+                "config/packages/valznerweiher_homepage.yaml": {
+                    "contents": [
+                        "valznerweiher_homepage:",
+                        "  forms_enabled: true",
+                        "  show_prices: true",
+                        ""
+                    ],
+                    "executable": false
+                },
+                "config/routes.yaml": {
+                    "contents": [
+                        "valznerweiher_homepage_public:",
+                        "  resource: \"@ValznerweiherHomepageBundle/Resources/config/routing/public.xml\"",
+                        "  prefix: /",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "b4df84d24da6f07286b88a2830b147affffc4114"
+        }
+    }
+}
