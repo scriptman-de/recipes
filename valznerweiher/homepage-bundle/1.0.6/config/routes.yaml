@@ -1,0 +1,3 @@
+valznerweiher_homepage_public:
+  resource: "@ValznerweiherHomepageBundle/Resources/config/routing/public.xml"
+  prefix: /
